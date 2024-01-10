@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  width: 1000px;
+}
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid black;
+  margin-top: 15px;
+}
